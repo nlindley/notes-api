@@ -48,7 +48,7 @@ touch config/db.js
 ```
 ### Connect to a mongoDB ###
 
-Open `congig/db.js` in your editor of choice and add the following:
+Open `config/db.js` in your editor of choice and add the following:
 
 ```javascript
 module.exports = {
