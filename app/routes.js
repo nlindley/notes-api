@@ -57,10 +57,12 @@ const Note = require('./models/note.js');
             })
         })
 
+        let path = require('path');
+
         // frontend routes
         // handles all angular requests
         app.get('*', (req,res) => {
-            res.sendFile('./public/views/index.html')
+            res.sendFile(path.join(__dirname, '../public', 'index.html'));
         })
 
     }
